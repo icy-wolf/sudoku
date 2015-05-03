@@ -21,7 +21,7 @@ require 'lib/game.inc.php';
 
     <?php echo displayHeader(); ?>
 
-    <p>A message has been sent to your email for validation.</p>
+    <p>A message has been sent to your email for validation. You may have to check your spam folder.</p>
 </div>
 </body>
 </html><?php
