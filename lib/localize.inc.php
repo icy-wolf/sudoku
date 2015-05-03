@@ -18,7 +18,7 @@ return function(Site $site) {
     $site->setRoot('');
     //mysql:host=mysql-user.cse.msu.edu;dbname=lawre272
     $site->dbConfigure('mysql:dbname=lawre272;host=localhost',
-        'lawre272',       // Database user
-        'A42278766',     // Database password
+        'root',       // Database user
+        '',     // Database password
         'p2_');            // Table prefix
 };
