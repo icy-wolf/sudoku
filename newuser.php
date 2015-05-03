@@ -30,7 +30,6 @@ require 'lib/game.inc.php';
             <p><input class="name" type="text" name="email" id="email" placeholder="Email"></p>
             <p><input class="name" type="password" name="password1" id="password1" placeholder="Password"></p>
             <p><input class="name" type="password" name="password2" id="password2" placeholder="Confirm Password"></p>
-            <p><label for="name">Secret: </label><br><input type="password" name="secret" id="secret"></p>
             <p><input type="submit" id="login" value="Submit"></p>
         </form>
         <?php
