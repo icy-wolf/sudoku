@@ -63,7 +63,7 @@ SQL;
         $statement->execute(array($userid, $name, $email, $hash, $salt, $validator));
 
         // Send email with the validator in it
-        $link = "http://webdev.cse.msu.edu"  . $this->site->getRoot() . '/newuser-validate.php?v=' . $validator;
+        $link = "http://sub.icywolf.me"  . $this->site->getRoot() . '/newuser-validate.php?v=' . $validator;
 
         $from = $this->site->getEmail();
 
