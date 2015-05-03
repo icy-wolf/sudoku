@@ -15,7 +15,7 @@ return function(Site $site) {
     date_default_timezone_set('America/Detroit');
 
     $site->setEmail('lawre272@cse.msu.edu');
-    $site->setRoot('/~lawre272/project2');
+    $site->setRoot('/');
     $site->dbConfigure('mysql:host=mysql-user.cse.msu.edu;dbname=lawre272',
         'lawre272',       // Database user
         'A42278766',     // Database password
