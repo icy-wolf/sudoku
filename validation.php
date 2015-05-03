@@ -24,10 +24,4 @@ require 'lib/game.inc.php';
     <p>A message has been sent to your email for validation. You may have to check your spam folder.</p>
 </div>
 </body>
-</html><?php
-/**
- * Created by PhpStorm.
- * User: nicolelawrence
- * Date: 4/9/15
- * Time: 1:01 PM
- */
+</html>

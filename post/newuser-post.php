@@ -11,12 +11,6 @@ require_once "../lib/game.inc.php";
 
 unset($_SESSION['newuser-error']);
 
-/*if($_POST['secret'] !== "super477") {
-    $_SESSION['newuser-error'] = "Invalid secret!";
-    header("location: ../newuser.php");
-    exit;
-}*/
-
 $nu = new NewUsers($site);
 $msg = $nu->newUser(
     strip_tags($_POST['userid']),
