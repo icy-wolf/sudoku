@@ -16,7 +16,8 @@ return function(Site $site) {
 
     $site->setEmail('lawre272@cse.msu.edu');
     $site->setRoot('');
-    $site->dbConfigure('mysql:host=mysql-user.cse.msu.edu;dbname=lawre272',
+    //mysql:host=mysql-user.cse.msu.edu;dbname=lawre272
+    $site->dbConfigure('mysql-user.cse.msu.edu;dbname=lawre272',
         'lawre272',       // Database user
         'A42278766',     // Database password
         'p2_');            // Table prefix
