@@ -73,7 +73,7 @@ SQL;
         $statement->execute(array($userid, $hash, $salt, $validator));
 
         // Send email with the validator in it
-        $link = "http://webdev.cse.msu.edu"  . $this->site->getRoot() . '/lostpw-validate.php?v=' . $validator;
+        $link = "sub.icywolf.me"  . $this->site->getRoot() . '/lostpw-validate.php?v=' . $validator;
 
         $from = $this->site->getEmail();
 
