@@ -1,0 +1,190 @@
+body{
+    background-color: #337533;
+    background-position: center top;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container p{
+    margin: 0;
+}
+
+#clues{
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin: 1em;
+}
+
+.name{
+    width: 80%;
+}
+
+.nameInput{
+    padding-top: 9em;
+}
+
+input[type=submit], input[type=text] {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    border: 0;
+    float: left;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 2.75em;
+}
+
+input[type=submit]{
+    height: 2.85em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input[type=text]{
+    margin-left: .5em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.Submit input[type=submit]{
+    border-radius: 10px;
+    float: none;
+}
+
+.outerTable{
+    border-collapse: collapse;
+    border: 1px solid black;
+    float: left;
+    display: inline-block;
+}
+
+.outerTable td{
+    padding: 0;
+}
+
+.innerTable{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.innerTable td{
+    border-right: 1px solid black;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.innerTable tr{
+    border-bottom: 1px solid black;
+}
+
+.puzzle{
+    background-color: white;
+    width: 372px;
+    height: 372px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.correct{
+    color: green;
+}
+
+.wrapper{
+    width: 372px;
+    height: 372px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.valueInput{
+    margin-top: 1em;
+    width: 350px;
+    text-align: center;
+    padding-left: 27%;
+}
+
+#new, #giveup{
+    border-radius: 10px;
+    border: solid 1pt black;
+}
+
+.newSubmit{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.lgs{
+    width: 700px;
+    text-align: center;
+    padding-left: 125px;
+}
+
+.lgs form{
+    float: left;
+    text-align: center;
+}
+
+.lgs .load{
+    margin-right: 2em;
+    margin-left: 2.75em;
+}
+
+.newSubmit p{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clues tr{
+    border: none;
+}
+
+.clues td{
+    width: 13.3px;
+    height: 13.3px;
+    font-size: .75em;
+    line-height: .75em;
+    border: none;
+    text-align: center;
+    color: green;
+}
+
+.clues{
+    border-collapse: collapse;
+    border: none;
+}
+
+.incorrect{
+    color: red;
+}
+
+#user, #password, #login, #login2, #Name, #email, #password1, #password2, #userid{
+    border-radius: 10px;
+    float: none;
+}
+
+#lostpw{
+    margin-top: 8em;
+}
+#logout{
+    margin-bottom: 1em;
+}
+
+#Email{
+    width: 80%;
+    margin-left: 1.5em;
+}
